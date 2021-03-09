@@ -26,8 +26,12 @@ int main()
     hearthStoneCard c3;
     c3.name = "Ancient Void Hound"; c3.mana = 9; c3.attack = 10; c3.health = 10;
 
+    hearthStoneCard c4;
+    c4.name = "Ace Hunter Kreen"; c4.mana = 3; c4.attack = 2; c4.health = 4;
+
     c1.printInfo();
     c2.printInfo();
     c3.printInfo();
+    c4.printInfo();
     return 0;
 }
